@@ -12,8 +12,9 @@
 <li>As our assumption was wrong, we discard the assigned num and then we go for the next assumption with a different num value</li>
 </ol>
 <hr>
-## PROGRAM
-```python 
+## PrograM:
+
+```py
 M = 9
 def puzzle(a):
 	for i in range(M):
@@ -76,4 +77,8 @@ else:
 	print("Solution does not exist:(")
  
 ```
-</hr>
+
+
+## OUTPUT:
+
+![image](https://github.com/naveen-m0804/Implement-a-Sudoku-Solver-From-Scratch-in-python/assets/117974950/97213c7e-db5f-48d2-a31a-ef37d4f65a82)
