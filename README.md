@@ -1,4 +1,4 @@
-# Implement a Sudoku Solver From Scratch
+# Implement a Sudoku Solver From Scratch Using Python
 ## Steps to solve the Sudoku Puzzle in Python
 <ol>
   <li>In this method for solving the sudoku puzzle, first, we assign the size of the 2D matrix to a variable M (M*M).</li>
@@ -11,9 +11,11 @@
 <li>After checking if it is a safe place, we move to the next column and then assign the num in the current (row, col) position of the grid. Later we check for the next possibility with the next column.</li>
 <li>As our assumption was wrong, we discard the assigned num and then we go for the next assumption with a different num value</li>
 </ol>
-<hr>
+
+
+## Program:
+
 ```py
-Program:
 M = 9
 def puzzle(a):
 	for i in range(M):
@@ -81,6 +83,7 @@ else:
 ## OUTPUT:
 
 ![image](https://github.com/naveen-m0804/Implement-a-Sudoku-Solver-From-Scratch-in-python/assets/117974950/97213c7e-db5f-48d2-a31a-ef37d4f65a82)
+
 
 ## RESULT:
 Thus the python program to develop the Sudoku Solver From Scratch is executed successfully
