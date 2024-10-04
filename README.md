@@ -12,7 +12,7 @@
 <li>As our assumption was wrong, we discard the assigned num and then we go for the next assumption with a different num value</li>
 </ol>
 <hr>
-## PrograM:
+## Program:
 
 ```py
 M = 9
@@ -82,3 +82,6 @@ else:
 ## OUTPUT:
 
 ![image](https://github.com/naveen-m0804/Implement-a-Sudoku-Solver-From-Scratch-in-python/assets/117974950/97213c7e-db5f-48d2-a31a-ef37d4f65a82)
+
+## RESULT:
+Thus the python program to develop the Sudoku Solver From Scratch is executed successfully
