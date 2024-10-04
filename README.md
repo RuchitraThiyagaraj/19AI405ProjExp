@@ -11,9 +11,9 @@
 <li>After checking if it is a safe place, we move to the next column and then assign the num in the current (row, col) position of the grid. Later we check for the next possibility with the next column.</li>
 <li>As our assumption was wrong, we discard the assigned num and then we go for the next assumption with a different num value</li>
 </ol>
-Program:
 <hr>
 ```py
+Program:
 M = 9
 def puzzle(a):
 	for i in range(M):
